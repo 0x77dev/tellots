@@ -1,12 +1,10 @@
 <img width="100px" height="100px" src="./icon.svg" />
 
 # TelloTS
-[![Build Status](https://travis-ci.org/kanekotic/tellojs.svg?branch=master)](https://travis-ci.org/kanekotic/tellojs)
-[![codecov](https://codecov.io/gh/kanekotic/tellojs/branch/master/graph/badge.svg)](https://codecov.io/gh/kanekotic/tellojs)
-[![npm](https://img.shields.io/npm/dt/tellojs.svg)](https://github.com/kanekotic/tellojs)
-[![GitHub license](https://img.shields.io/github/license/kanekotic/tellojs.svg)](https://github.com/kanekotic/tellojs/blob/master/LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/kanekotic/tellojs/graphs/commit-activity)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/kanekotic/)
+![Build](https://github.com/0x77dev/tellots/workflows/Build/badge.svg)
+[![npm](https://img.shields.io/npm/dt/tellots.svg)](https://github.com/0x77dev/tellots)
+[![GitHub license](https://img.shields.io/github/license/0x77dev/tellots.svg)](https://github.com/kanekotic/tellojs/blob/master/LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/0x77dev/tellots/graphs/commit-activity)
 
 ## Motivation
 
