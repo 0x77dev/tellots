@@ -1,4 +1,4 @@
-const commander = require('../exchanger')
+import commander from "../exchanger"
 
 const connect = () => commander.send('command')
 
