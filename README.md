@@ -10,16 +10,20 @@
 
 Provide an async promise based unofficial sdk for the tello drone based on the official [documentation](https://dl-cdn.ryzerobotics.com/downloads/tello/20180910/Tello%20SDK%20Documentation%20EN_1.3.pdf).
 
+Refactored to TypeScript, forked from [tellojs](https://github.com/kanekotic/tellojs).
+
 ## Installation
 
-add it to your project using `npm install tellojs --save` or `yarn add tellojs`
+add it to your project using `npm install tellots --save` or `yarn add tellots`
 
 ## Usage
 
 this sdk provide functions when you import for the next capabilities:
 
 ```js
-const sdk = require('tellojs')
+import sdk from "tellots";
+// or
+// const sdk = require('tellots')
 
 const x = number,
     y = number,
@@ -88,7 +92,7 @@ Example output of state:
     speed: { x: 0, y: 0, z: 0 },
     temperature: { low: 51, high: 53 },
     tof: 6553,
-    heigh: 0,
+    height: 0,
     battery: 87,
     barometer: 24.65,
     time: 0,
