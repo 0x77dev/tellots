@@ -1,4 +1,6 @@
-# ![logomakr_123ujk](https://user-images.githubusercontent.com/3071208/49430616-cddbc300-f7ab-11e8-9356-381c730d0839.png)
+<img width="100px" height="100px" src="./icon.svg" />
+
+# TelloTS
 [![Build Status](https://travis-ci.org/kanekotic/tellojs.svg?branch=master)](https://travis-ci.org/kanekotic/tellojs)
 [![codecov](https://codecov.io/gh/kanekotic/tellojs/branch/master/graph/badge.svg)](https://codecov.io/gh/kanekotic/tellojs)
 [![npm](https://img.shields.io/npm/dt/tellojs.svg)](https://github.com/kanekotic/tellojs)
@@ -102,5 +104,3 @@ Example output of state:
 Example output of video: is binary ;)
 */
 ```
-
-##### Web graphic by <a href="http://www.flaticon.com/authors/picol">picol</a> from <a href="http://www.flaticon.com/">Flaticon</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Check out the new logo that I created on <a href="http://logomakr.com" title="Logo Makr">LogoMakr.com</a> https://logomakr.com/09u4Zz
