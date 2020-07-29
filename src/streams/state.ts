@@ -15,7 +15,7 @@ const format = (mapped: any): State => ({
     speed: { x: mapped.vgx, y: mapped.vgy, z: mapped.vgz },
     temperature: { low: mapped.templ, high: mapped.temph },
     tof: mapped.tof,
-    heigh: mapped.h,
+    height: mapped.h,
     battery: mapped.bat,
     barometer: mapped.baro,
     time: mapped.time,

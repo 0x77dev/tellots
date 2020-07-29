@@ -5,7 +5,7 @@ export interface State {
     speed: { x: number, y: number, z: number };
     temperature: { low: number, high: number };
     tof: number;
-    heigh: number;
+    height: number;
     battery: number;
     barometer: number;
     time: number;
