@@ -1,8 +1,8 @@
-const controlCommands = require('./commands/control'),
-    readCommands = require('./commands/read'),
-    setCommands = require('./commands/set'),
-    stateStream = require('./streams/state'),
-    videoStream = require('./streams/video');
+import controlCommands from './commands/control';
+import readCommands from './commands/read';
+import setCommands from './commands/set';
+import stateStream from './streams/state';
+import videoStream from './streams/video';
 
 
 export const Tello = {

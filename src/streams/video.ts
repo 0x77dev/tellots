@@ -1,10 +1,11 @@
-const dgram = require('dgram'),
-    client = dgram.createSocket('udp4'),
-    constants = require('../constants.json'),
-    commander = require('../exchanger')
-    EventEmitter = require('events'),
+import { EventEmitter } from "events";
+import { constants } from "../constants";
+import dgram from "dgram";
+import commander from "../exchanger";
+
+const client = dgram.createSocket('udp4'),
     _local = {
-        emitter: undefined
+        emitter: new EventEmitter()
     }
 
 client.on('message', message => _local.emitter.emit('message', message))
@@ -21,7 +22,7 @@ const bind = async () => {
 }
 
 const close = async () => {
-    try {  
+    try {
         await commander.send('streamoff')
     } catch (error) {
         throw "Unable to stop video stream"
@@ -29,4 +30,5 @@ const close = async () => {
     client.close()
 }
 
-module.exports = { bind, close }
+export const video = { bind, close };
+export default video;

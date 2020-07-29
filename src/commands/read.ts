@@ -1,4 +1,4 @@
-const commander = require('../exchanger')
+import commander from "../exchanger"
 
 const speed = () => commander.send('speed?')
 
@@ -20,4 +20,5 @@ const tof = () => commander.send('tof?')
 
 const wifi = () => commander.send('wifi?')
 
-module.exports = { speed, battery, time, wifi, height, temperature, attitude, barometer, tof, acceleration }
+export const read = { speed, battery, time, wifi, height, temperature, attitude, barometer, tof, acceleration };
+export default read;
