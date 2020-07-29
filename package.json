@@ -4,17 +4,8 @@
   "description": "async based library to be able to control de dji tello drone, forked from tellojs project",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest",
-    "test:dev": "jest --watchAll",
-    "test:cov": "jest --coverage && codecov",
     "build": "tsc",
-    "prepublishOnly": "npm-run-all tsc",
-    "push": "yarn test && git push",
-    "deploy:major": "yarn version --major",
-    "deploy:minor": "yarn version --minor",
-    "deploy:patch": "yarn version --patch",
-    "deploy:push": "git push && git push --tags",
-    "preversion": "yarn test"
+    "prepublishOnly": "npm-run-all tsc"
   },
   "keywords": [
     "tello",
@@ -33,15 +24,7 @@
   "private": false,
   "devDependencies": {
     "@types/node": "^14.0.27",
-    "codecov": "3.7.2",
-    "faker": "4.1.0",
-    "jest": "26.1.0",
     "npm-run-all": "^4.1.5",
     "typescript": "^3.9.7"
-  },
-  "jest": {
-    "testMatch": [
-      "**/test/**/*-test.js"
-    ]
   }
 }
