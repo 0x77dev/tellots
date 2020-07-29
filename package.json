@@ -1,5 +1,5 @@
 {
-  "name": "tellots",
+  "name": "@0x77/tellots",
   "version": "0.1.86+1",
   "description": "async based library to be able to control de dji tello drone, forked from tellojs project",
   "main": "dist/index.js",

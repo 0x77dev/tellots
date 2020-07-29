@@ -2,8 +2,8 @@
 
 # TelloTS
 ![Build](https://github.com/0x77dev/tellots/workflows/Build/badge.svg)
-[![npm](https://img.shields.io/npm/dt/tellots.svg)](https://github.com/0x77dev/tellots)
-[![GitHub license](https://img.shields.io/github/license/0x77dev/tellots.svg)](https://github.com/kanekotic/tellojs/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/dt/@0x77/tellots.svg)](https://github.com/0x77dev/tellots)
+[![GitHub license](https://img.shields.io/github/license/0x77dev/tellots.svg)](https://github.com/0x77dev/tellots/blob/master/LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/0x77dev/tellots/graphs/commit-activity)
 
 ## Motivation
@@ -14,16 +14,16 @@ Refactored to TypeScript, forked from [tellojs](https://github.com/kanekotic/tel
 
 ## Installation
 
-add it to your project using `npm install tellots --save` or `yarn add tellots`
+add it to your project using `npm install @0x77/tellots --save` or `yarn add @0x77/tellots`
 
 ## Usage
 
 this sdk provide functions when you import for the next capabilities:
 
 ```js
-import sdk from "tellots";
+import sdk from "@0x77/tellots";
 // or
-// const sdk = require('tellots')
+// const sdk = require('@0x77/tellots')
 
 const x = number,
     y = number,
